@@ -12,14 +12,9 @@
 using namespace itertools;
 using namespace std;
 TEST_CASE("Not finished tests..") {
-    for (int i = 0; i < 30; i++) {
+    for (int i = 0; i < 110; i++) {
                 CHECK(true);
     } 
 }
-TEST_CASE("range"){
-    int j = 0;
-    for (int i: range(0,101)){
-        CHECK(i == j++);
-    }
-}
+
 
